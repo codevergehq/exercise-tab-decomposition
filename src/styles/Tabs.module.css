@@ -1,0 +1,38 @@
+/* styles/Tabs.module.css */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .tab {
+    flex: 1;
+    padding: var(--spacing-md);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: var(--font-md);
+    color: var(--text-secondary);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+  
+  .tab:hover {
+    color: var(--primary-color);
+  }
+  
+  .tabActive {
+    font-weight: bold;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+  
+  .content {
+    padding: var(--spacing-xl);
+  }
+  
